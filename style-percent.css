@@ -1,0 +1,19 @@
+.inputs1 {
+  display: inline;
+  width: 110px;
+}
+.inputs2 {
+  display: inline;
+  width: 30px;
+  margin-bottom: 5px;
+}
+#range_scaller {
+  width: 400px;
+}
+#input_scaller {
+  width: 40px;
+  margin: 10px;
+}
+.clicked {
+  background-color: firebrick;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+  </head>
+  <body onload="declareElements()">
+    <div id="nav">
+      <a href="percent.html">Percent</a>
+    </div>
+    <div id="upper_pannel" class="upper_panel_hide">
+      <input id="scaller_box" type="number" oninput="changeSourceRange(this)" />
+      <input
+        id="range_scaller"
+        type="range"
+        step="1"
+        value="50"
+        min="0"
+        max="100"
+        oninput="changeSourceRange(this)"
+      />
+      <button onclick="setDefault()">Reset</button>
+      <button onclick="discardElements()">Discard</button>
+
+      <br />
+    </div>
+    <input class="input_name" type="text" oninput="createInputs(this)" />
+    <input
+      class="input_weight"
+      type="text"
+      ondblclick="toRange(this)"
+      onchange="updateInitial()"
+    />
+    <div class="brs"><br /></div>
+    <input class="input_name" type="text" oninput="createInputs(this)" />
+    <input
+      class="input_weight"
+      type="text"
+      ondblclick="toRange(this)"
+      onchange="updateInitial()"
+    />
+    <div class="brs"><br /></div>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+.input_name {
+  display: inline;
+  width: 100px;
+  margin: 3px;
+}
+
+.input_weight {
+  display: inline;
+  width: 30px;
+  background-color: auto;
+}
+
+input[type="range"] {
+  width: 700px;
+}
+
+input[type="number"] {
+  width: 50px;
+}
+
+.highlight {
+  background-color: darkgoldenrod;
+}
+
+.brs {
+  display: inline;
+}
+
+.upper_panel_visible {
+  display: inline;
+}
+.upper_panel_hide {
+  display: none;
+}
+#nav {
+  display: block;
+  margin-bottom: 50px;
+}

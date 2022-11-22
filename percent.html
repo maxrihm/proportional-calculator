@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style-percent.css" />
+    <script src="percent.js"></script>
+  </head>
+  <body onload="initializeElements()">
+    <input type="text" class="inputs1" />
+    <input type="text" class="inputs2" ondblclick="clickedAction(this)" />
+    <label class="inputs2_label"></label>
+    <br />
+    <input type="text" class="inputs1" />
+    <input type="text" class="inputs2" ondblclick="clickedAction(this)" />
+    <label class="inputs2_label"></label>
+    <br />
+
+    <input
+      type="number"
+      value="100"
+      id="input_scaller"
+      oninput="onChange(this)"
+    />
+    <label>%</label>
+    <input
+      type="range"
+      id="range_scaller"
+      value="100"
+      max="200"
+      oninput="onChange(this)"
+      placeholder=""
+    />
+    <br />
+    <button onclick="resetButton()">Reset</button>
+  </body>
+</html>
